@@ -28,13 +28,8 @@ void chuta(){
         printf("Qual letra? ");
         scanf(" %c", &chute);
 
-<<<<<<< HEAD
         chutes[chutesdados] = chute;
         chutesdados++;
-=======
-        chutes[tentativas] = chute;
-        tentativas++;
->>>>>>> bda28007eb074ae01b940c146b3c6c91de8fe84e
 }
 
 int jachutou(char letra){
@@ -62,29 +57,6 @@ void desenhaforca(){
             }
         }
         printf("\n");
-<<<<<<< HEAD
-=======
-}
-
-void escolhapalavra(){
-    sprintf(palavrasecreta, "MELANCIA");
-}
-
-int main() {
-
-    int acertou = 0;
-    int enforcou = 0;
-  
-    escolhapalavra();
-    cabecalho();
-    
-    do {
-        
-        desenhaforca();
-        chuta();
-        
-    } while (!acertou && !enforcou);
->>>>>>> bda28007eb074ae01b940c146b3c6c91de8fe84e
 }
 
 void adicionapalavra(){
